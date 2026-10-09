@@ -1,11 +1,11 @@
 context:
-  version: "0.3.0"
+  version: "0.3.1"
 package:
   name: imdlib
   version: ${{ version }}
 source:
   url: https://pypi.org/packages/source/i/imdlib/imdlib-${{ version }}.tar.gz
-  sha256: 61233cdee5760436af5474e2a3b4d618d0eedb27ed1b74944d7b7e3bb59c2aac
+  sha256: b8c21663e462d8b4e9c8bbe8382ef5e8d6e5c13a861d8a3b9c2532e2dd862816
 build:
   noarch: python
   number: 0
